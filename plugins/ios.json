@@ -16,7 +16,8 @@
                 "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>": 1,
                 "<feature name=\"Capture\"><param name=\"ios-package\" value=\"CDVCapture\" /></feature>": 1,
                 "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>": 1,
-                "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>": 1
+                "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>": 1,
+                "<feature name=\"Contacts\"><param name=\"ios-package\" value=\"CDVContacts\" /></feature>": 1
             }
         },
         "framework": {
@@ -33,13 +34,19 @@
                 "false": 1
             },
             "CoreGraphics.framework": {
-                "false": 2
+                "false": 3
             },
             "AssetsLibrary.framework": {
                 "false": 2
             },
             "MobileCoreServices.framework": {
                 "false": 3
+            },
+            "AddressBook.framework": {
+                "true": 1
+            },
+            "AddressBookUI.framework": {
+                "true": 1
             }
         }
     },
@@ -72,6 +79,9 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "org.apache.cordova.contacts": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },

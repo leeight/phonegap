@@ -15,7 +15,8 @@
                 "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>": 1,
                 "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>": 1,
                 "<feature name=\"Capture\"><param name=\"android-package\" value=\"org.apache.cordova.mediacapture.Capture\" /></feature>": 1,
-                "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>": 1
+                "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>": 1,
+                "<feature name=\"Contacts\"><param name=\"android-package\" value=\"org.apache.cordova.contacts.ContactManager\" /></feature>": 1
             }
         },
         "AndroidManifest.xml": {
@@ -27,7 +28,10 @@
                 "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />": 2,
                 "<uses-permission android:name=\"android.permission.RECORD_VIDEO\" />": 1,
                 "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />": 1,
-                "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />": 1
+                "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />": 1,
+                "<uses-permission android:name=\"android.permission.READ_CONTACTS\" />": 1,
+                "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />": 1,
+                "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />": 1
             }
         }
     },
@@ -60,6 +64,9 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "org.apache.cordova.contacts": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },

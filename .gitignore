@@ -1,0 +1,5 @@
+ant-build
+*.class
+*.apk
+*.dex
+*.d

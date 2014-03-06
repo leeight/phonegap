@@ -1,0 +1,2 @@
+run:
+	phonegap run android
