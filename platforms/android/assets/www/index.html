@@ -37,13 +37,11 @@
                 <p class="event received">Device is Ready</p>
             </div>
             <p id="deviceProperties">Loading device properties...</p>
-
-            <button onclick="capturePhoto();">Capture Photo</button> <br>
-            <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
-            <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-            <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
-            <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-            <img style="display:none;" id="largeImage" src="" />
+            <ul>
+                <li><a href="api/geo.html">Test Geolocation API</a></li>
+                <li><a href="api/camara.html">Test Camara API</a></li>
+                <li><a href="api/map.html">Test Map API</a></li>
+            </ul>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
